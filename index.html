@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+        <label for="modeloCarro">Modelo:</label>
+        <input type="text" name="Modelo" placeholder="Ex: Creta" id="modeloCarro" />
+    </div>
+    <div>
+        <label for="marcaCarro">Marca:</label>
+        <input type="text" name="Marca" placeholder="Ex: Hyundai" id="marcaCarro" />
+    </div>
+    <div>
+        <label for="anoCarro">Ano:</label>
+        <input type="number" name="Ano" placeholder="Ex: 2012" id="anoCarro" />
+    </div>
+    <div>
+        <label for="quilometragemCarro">Quilometragem:</label>
+        <input type="number" name="Quilometragem" placeholder="Ex: 80000" id="quilometragemCarro" />
+    </div>
+    <div>
+        <label for="valorCarro">Valor:</label>
+        <input type="text" name="Valor" placeholder="Ex: 12000" id="valorCarro" />
+    </div>
+    <div>
+        <span>Estado do Carro: </span>
+        <label for="estadoCarro">Novo</label>
+        <input type="radio" name="Estado" id="estadoCarro" />
+        <label for="estadoCarro">Antigo</label>
+        <input type="radio" name="Estado" id="estadoCarro" />
+    </div>
+    <div>
+        <span>Adicionais do Carro: </span>
+        <label for="adicionaisCarro">Ar-Condicionado</label>
+        <input type="checkbox" name="Adicional" id="adicionaisCarro" />
+        <label for="adicionaisCarro">AirBag</label>
+        <input type="checkbox" name="Adicional" if="adicionaisCarro" />
+        <label for="adicionaisCarro">Alarme</label>
+        <input type="checkbox" name="Adicional" if="adicionaisCarro" />
+    </div>
+    <div>
+        <span>Final da Placa:</span>
+        <select name="finalPlaca">
+            <option value="Final 0" selected>0</option>
+            <option value="Final 1">1</option>
+            <option value="Final 2">2</option>
+            <option value="Final 3">3</option>
+            <option value="Final 5">5</option>
+            <option value="Final 6">6</option>
+            <option value="Final 7">7</option>
+            <option value="Final 8">8</option>
+            <option value="Final 9">9</option>
+          </select>
+    </div>
+    <div>
+        <button type="submit">Enviar</button>  
+    </div>
+    
+</body>
+</html>
